@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="label" Content="This is my first WPF application" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="497"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="17,90,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="17,127,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="17,160,0,0" VerticalAlignment="Top" Width="100"/>
+        <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="17,276,0,0" VerticalAlignment="Top"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="135,51,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="100" Margin="135,160,0,0" VerticalAlignment="Top" Width="100">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="263,51,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="263,92,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="59" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="400,48,0,0" VerticalAlignment="Top" Height="30" Width="89"/>
+        <Calendar HorizontalAlignment="Left" Margin="328,92,0,0" VerticalAlignment="Top" Height="168"/>
+
     </Grid>
 </Window>
