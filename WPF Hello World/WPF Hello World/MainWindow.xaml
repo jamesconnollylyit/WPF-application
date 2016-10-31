@@ -22,7 +22,7 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="263,51,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="263,51,0,0" TextWrapping="Wrap" Text="TextBox2 " VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="263,92,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="59" Width="120"/>
         <DatePicker HorizontalAlignment="Left" Margin="400,48,0,0" VerticalAlignment="Top" Height="30" Width="89"/>
         <Calendar HorizontalAlignment="Left" Margin="310,121,0,0" VerticalAlignment="Top" Height="168"/>
